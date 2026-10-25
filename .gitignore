@@ -50,7 +50,7 @@ Backend/Sample Docs/
 **/*.csv
 
 # The reviewed architecture diagram is intentionally public documentation.
-!docs/01. AuditVision AI AWS Architecture Diagram.png
+!docs/architecture-diagram.png
 
 # Editor and operating-system files
 .DS_Store

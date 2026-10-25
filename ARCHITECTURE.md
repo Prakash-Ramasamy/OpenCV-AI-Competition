@@ -1,6 +1,6 @@
 # AuditVision AI architecture
 
-![AuditVision AI AWS architecture diagram](docs/01.%20AuditVision%20AI%20AWS%20Architecture%20Diagram.png)
+![AuditVision AI AWS architecture diagram](docs/architecture-diagram.png)
 
 The image is the canonical presentation view; the Mermaid diagram below keeps
 the architecture searchable and accessible in text.
