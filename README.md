@@ -7,7 +7,7 @@ evaluation reports.
 
 ## Architecture
 
-![AuditVision AI AWS architecture diagram](docs/01.%20AuditVision%20AI%20AWS%20Architecture%20Diagram.png)
+![AuditVision AI AWS architecture diagram](docs/Architecture Diagram.png)
 
 The image above is the canonical presentation diagram. The Mermaid version
 below provides a searchable, text-based fallback for GitHub and accessibility.
