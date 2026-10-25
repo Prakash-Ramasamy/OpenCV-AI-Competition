@@ -1,5 +1,10 @@
 # AuditVision AI architecture
 
+![AuditVision AI AWS architecture diagram](docs/01.%20AuditVision%20AI%20AWS%20Architecture%20Diagram.png)
+
+The image is the canonical presentation view; the Mermaid diagram below keeps
+the architecture searchable and accessible in text.
+
 The diagram below reflects the current deployment model: two private ECR
 repositories provide the container images, and Amazon ECS Express Mode runs the
 frontend and backend as containers in one task. The frontend container serves
