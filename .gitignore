@@ -1,0 +1,56 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+.aws/
+**/.aws/
+
+# Python environments, caches, coverage, and test artifacts
+**/.venv/
+**/venv/
+**/.conda-env/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.pytest-tmp/
+**/pytest-cache-files-*/
+**/.coverage
+**/htmlcov/
+
+# JavaScript dependencies and build output
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+
+# Logs and local runtime files
+**/*.log
+**/logs/
+*.pid
+
+# Generated upload/runtime data and audit documents
+Backend/data/uploads/
+Backend/data/documents/
+Backend/data/output/
+Backend/data/results/
+Backend/data/synthetic/
+Backend/Sample Docs/
+
+# Input/output documents, images, and ground-truth exports are not public code
+**/*.pdf
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*ground_truth*
+**/*ground-truth*
+**/*ground truth*
+**/*.csv
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,13 @@
+# Local-only override. Do not use this file for EC2/ECS deployment.
+services:
+  backend:
+    env_file:
+      - ./Backend/.env
+    environment:
+      AWS_DEFAULT_REGION: us-east-1
+    volumes:
+      # The production image intentionally excludes development scripts.
+      - type: bind
+        source: ./Backend/scripts
+        target: /app/scripts
+        read_only: true

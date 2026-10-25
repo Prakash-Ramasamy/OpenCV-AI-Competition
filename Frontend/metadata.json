@@ -1,0 +1,6 @@
+{
+  "name": "AuditVision AI — Enterprise Audit Review Workbench",
+  "description": "Autonomous Visual Intelligence for Audited Financial Statement Review. Inspect computer-vision audit annotations, verify extracted financial evidence, and manage audit review workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

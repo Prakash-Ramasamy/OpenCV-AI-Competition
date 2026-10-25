@@ -1,0 +1,12 @@
+.venv/
+.venv-py313/
+.conda-env/
+__pycache__/
+.pytest_cache/
+.pytest-tmp/
+*.py[cod]
+.env
+data/uploads/
+data/artifacts/
+data/real/
+*.log

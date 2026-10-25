@@ -1,0 +1,24 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp/
+.pytest-run-*/
+pytest-cache-files-*/
+.env
+.env.*
+.git/
+tests/
+scripts/
+*.log
+*.pdf
+data/*
+!data/results/
+data/results/*
+!data/results/milestone-3-improved/
+!data/results/milestone-3-improved/**
+Sample Docs/*
+!Sample Docs/Infosys_AuditVision_Synthetic_Test_Dataset/
+Sample Docs/Infosys_AuditVision_Synthetic_Test_Dataset/*
+!Sample Docs/Infosys_AuditVision_Synthetic_Test_Dataset/Infosys_AuditVision_Synthetic_Ground_Truth.json
